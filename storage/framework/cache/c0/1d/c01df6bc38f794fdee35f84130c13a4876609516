@@ -1,0 +1,36 @@
+1554729997a:1:{s:18:"modules/footer.htm";a:5:{s:8:"fileName";s:18:"modules/footer.htm";s:7:"content";s:498:"<footer>
+    <div class="container">
+        <p>{{ this.theme.footer }}</p>
+        {% if this.theme.footer_menu %}
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+        {% endif %}
+    </div>
+</footer>
+";s:5:"mtime";i:1554465596;s:6:"markup";s:497:"<footer>
+    <div class="container">
+        <p>{{ this.theme.footer }}</p>
+        {% if this.theme.footer_menu %}
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+        {% endif %}
+    </div>
+</footer>";s:4:"code";N;}}

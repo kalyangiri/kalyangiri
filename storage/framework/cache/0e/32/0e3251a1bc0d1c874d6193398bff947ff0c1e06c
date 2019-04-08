@@ -1,0 +1,80 @@
+1554729997a:1:{s:20:"sections/contact.htm";a:6:{s:8:"fileName";s:20:"sections/contact.htm";s:7:"content";s:1523:"==
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>{{ this.theme.contact_headline | raw }}</h2>
+        {% if this.theme.contact_content %}
+        <p>
+            {{ this.theme.contact_content | raw }}
+        </p>
+        {% endif %}
+        <ul class="list-inline list-social">
+            {% if this.theme.contact_twitter %}
+            <li class="list-inline-item social-twitter">
+                <a href="{{ this.theme.contact_twitter }}">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_facebook %}
+            <li class="list-inline-item social-facebook">
+                <a href="{{ this.theme.contact_facebook }}">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_google %}
+            <li class="list-inline-item social-google-plus">
+                <a href="{{ this.theme.contact_google }}">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_linkedin %}
+            <li class="list-inline-item social-linkedin">
+                <a href="{{ this.theme.contact_linkedin }}">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</section>";s:5:"mtime";i:1554721179;s:6:"markup";s:1520:"<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>{{ this.theme.contact_headline | raw }}</h2>
+        {% if this.theme.contact_content %}
+        <p>
+            {{ this.theme.contact_content | raw }}
+        </p>
+        {% endif %}
+        <ul class="list-inline list-social">
+            {% if this.theme.contact_twitter %}
+            <li class="list-inline-item social-twitter">
+                <a href="{{ this.theme.contact_twitter }}">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_facebook %}
+            <li class="list-inline-item social-facebook">
+                <a href="{{ this.theme.contact_facebook }}">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_google %}
+            <li class="list-inline-item social-google-plus">
+                <a href="{{ this.theme.contact_google }}">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if this.theme.contact_linkedin %}
+            <li class="list-inline-item social-linkedin">
+                <a href="{{ this.theme.contact_linkedin }}">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

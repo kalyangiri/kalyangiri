@@ -1,0 +1,10 @@
+name: Kalyan_Cv_management
+form: $/kalyan/cvmanagement/models/cvkalyan/fields.yaml
+modelClass: Kalyan\CvManagement\Models\Cvkalyan
+defaultRedirect: kalyan/cvmanagement/kalyan_cv_management
+create:
+    redirect: 'kalyan/cvmanagement/kalyan_cv_management/update/:id'
+    redirectClose: kalyan/cvmanagement/kalyan_cv_management
+update:
+    redirect: kalyan/cvmanagement/kalyan_cv_management
+    redirectClose: kalyan/cvmanagement/kalyan_cv_management

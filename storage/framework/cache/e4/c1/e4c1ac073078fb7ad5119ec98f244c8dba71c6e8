@@ -1,0 +1,34 @@
+1554729997a:1:{s:15:"modules/nav.htm";a:5:{s:8:"fileName";s:15:"modules/nav.htm";s:7:"content";s:718:"<nav
+    id="mainNav"
+    class="navbar navbar-expand-lg navbar-light fixed-top"
+>
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ this.theme.site_title }}</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                {% partial 'modules/nav-items.htm' %}
+            </ul>
+        </div>
+    </div>
+</nav>
+";s:5:"mtime";i:1554465596;s:6:"markup";s:717:"<nav
+    id="mainNav"
+    class="navbar navbar-expand-lg navbar-light fixed-top"
+>
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ this.theme.site_title }}</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                {% partial 'modules/nav-items.htm' %}
+            </ul>
+        </div>
+    </div>
+</nav>";s:4:"code";N;}}

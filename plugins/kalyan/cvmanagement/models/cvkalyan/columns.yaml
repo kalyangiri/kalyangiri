@@ -1,0 +1,20 @@
+columns:
+    title:
+        label: TITLE
+        type: text
+        searchable: true
+        sortable: true
+    shortdescription:
+        label: SHORTDESCRIPTION
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: DESCRIPTION
+        type: text
+    from:
+        label: FROM
+        type: date
+    to:
+        label: TO
+        type: date

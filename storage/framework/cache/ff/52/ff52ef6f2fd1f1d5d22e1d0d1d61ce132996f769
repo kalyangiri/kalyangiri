@@ -1,0 +1,42 @@
+1554729997a:1:{s:21:"modules/nav-items.htm";a:6:{s:8:"fileName";s:21:"modules/nav-items.htm";s:7:"content";s:511:"==
+{% if this.theme.download_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#download">
+        Download
+    </a>
+</li>
+{% endif %}
+{% if this.theme.features_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#features">
+        Experiences
+    </a>
+</li>
+{% endif %}
+{% if this.theme.contact_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#contact">
+        Contact
+    </a>
+</li>
+{% endif %}";s:5:"mtime";i:1554721808;s:6:"markup";s:508:"{% if this.theme.download_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#download">
+        Download
+    </a>
+</li>
+{% endif %}
+{% if this.theme.features_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#features">
+        Experiences
+    </a>
+</li>
+{% endif %}
+{% if this.theme.contact_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#contact">
+        Contact
+    </a>
+</li>
+{% endif %}";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
