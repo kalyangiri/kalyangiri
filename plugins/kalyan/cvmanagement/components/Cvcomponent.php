@@ -6,18 +6,8 @@ use Kalyan\Cvmanagament\Models\Cvkalyan;
 
 class Cvcomponent extends ComponentBase
 {
-    public function componentDetails()
-    {
-        return [
-            'name'        => 'cvcomponent Component',
-            'description' => 'No description provided yet...'
-        ];
-    }
-
-    public function defineProperties()
-    {
-	    return [
-	    public $articles;
+    
+    public $articles;
     public $properties;
     public function componentDetails()
     {
