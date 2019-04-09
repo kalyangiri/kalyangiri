@@ -13,12 +13,12 @@
             ">
                 <h4 class="steps-block__item-subtitle title">{{ timeline.title }}</h4>
                 <p class="steps-block__item-description">
-                    {{ timeline.body|raw|truncate(__SELF__.property('truncate'), true )}}</p>
+                    {{ timeline.description|raw|truncate(__SELF__.property('truncate'), true )}}</p>
             </div>
             <div class="steps-block__item-media">
                 <span class="steps-block__item-index"
                     style="background:linear-gradient(45deg, #1de099, #1dc8cd); text-align:center;">
-                    <P>{{ timeline.date|date("j") }} <br> {{ timeline.date|date("M")}} <br>{{ timeline.date|date("Y")}}
+                    <P>{{ timeline.started|date("j") }} <br> {{ timeline.started|date("M")}} <br>{{ timeline.started|date("Y")}}
                     </P>
                 </span>
                 <div class="steps-block__item-img-wrap">
