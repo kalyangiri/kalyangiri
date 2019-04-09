@@ -8,9 +8,15 @@ columns:
         type: text
         searchable: true
         sortable: true
-    body:
-        label: Body
+    description:
+        label: Description
         type: text
-    date:
+    short_description:
+        label: Short_description
+        type: text
+    started:
+        label: Date
+        type: date
+    ended:
         label: Date
         type: date

@@ -3,13 +3,23 @@ fields:
         label: Title
         span: auto
         type: text
-    body:
-        label: Body
+    description:
+        label: description
         size: large
         span: full
         type: richeditor
-    date:
-        label: Date
+    short_description:
+        label: Short Description
+        size: large
+        span: full
+        type: richeditor
+    started:
+        label: Started
+        mode: date
+        span: auto
+        type: datepicker
+    ended:
+        label: Ended
         mode: date
         span: auto
         type: datepicker
