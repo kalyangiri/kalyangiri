@@ -12,9 +12,11 @@ class BuilderTableCreateKalyanCvmanagement extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
             $table->text('title');
-            $table->dateTime('year')->nullable();
             $table->text('description');
-            $table->text('shortdescription');
+            $table->text('short_description');
+            $table->date('started')->nullable();
+            $table->date('ended')->nullable();
+            
         });
     }
     

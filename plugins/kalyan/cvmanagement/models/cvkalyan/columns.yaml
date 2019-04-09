@@ -12,9 +12,9 @@ columns:
     description:
         label: DESCRIPTION
         type: text
-    from:
+    started:
         label: FROM
         type: date
-    to:
+    ended:
         label: TO
         type: date
