@@ -1,0 +1,33 @@
+{% set timelines = __SELF__.timelines %}
+<div class="container">
+    <div class="section-header aos-init aos-animate" data-aos="fade" data-aos-duration="1000">
+        <h3 class="section-title">Timeline</h3>
+        <span class="section-divider"></span>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque</p>
+    </div>
+    <div class="steps-block__items">
+        {% for timeline in timelines%}
+        <div class="steps-block__item aos-init aos-animate" data-aos="fade-right" data-aos-delay="250">
+            <div class="steps-block__item-content
+            ">
+                <h4 class="steps-block__item-subtitle title">{{ timeline.title }}</h4>
+                <p class="steps-block__item-description">
+                    {{ timeline.body|raw|truncate(__SELF__.property('truncate'), true )}}</p>
+            </div>
+            <div class="steps-block__item-media">
+                <span class="steps-block__item-index"
+                    style="background:linear-gradient(45deg, #1de099, #1dc8cd); text-align:center;">
+                    <P>{{ timeline.date|date("j") }} <br> {{ timeline.date|date("M")}} <br>{{ timeline.date|date("Y")}}
+                    </P>
+                </span>
+                <div class="steps-block__item-img-wrap">
+                    <img class="steps-block__item-img" src="https://telmd.com/wp-content/uploads/2019/02/web-chat.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>

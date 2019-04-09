@@ -1,0 +1,11 @@
+plugin:
+    name: 'idnepal.timeline::lang.plugin.name'
+    description: 'idnepal.timeline::lang.plugin.description'
+    author: IDNepal
+    icon: oc-icon-align-right
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Timeline
+        url: idnepal/timeline/timeline
+        icon: icon-align-right

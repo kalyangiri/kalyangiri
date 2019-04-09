@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Timeline
+
+# Model Form Field configuration
+form: $/idnepal/timeline/models/timeline/fields.yaml
+
+# Model Class name
+modelClass: Idnepal\Timeline\Models\Timeline
+
+# Default redirect location
+defaultRedirect: idnepal/timeline/timeline
+
+# Create page
+create:
+    title: Create Timeline
+    redirect: idnepal/timeline/timeline/update/:id
+    redirectClose: idnepal/timeline/timeline
+
+# Update page
+update:
+    title: Edit Timeline
+    redirect: idnepal/timeline/timeline
+    redirectClose: idnepal/timeline/timeline
+
+# Preview page
+preview:
+    title: Preview Timeline

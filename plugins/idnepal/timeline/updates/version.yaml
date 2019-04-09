@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table idnepal_timeline_timeline'
+    - builder_table_create_idnepal_timeline_timeline.php
